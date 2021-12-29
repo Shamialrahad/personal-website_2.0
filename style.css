@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    height: 100vh;
+    padding-top: 50px;
+}
+.header-area{
+    background-image: url(header-bg.png);
+    background-size: cover;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+}
+h4{
+    font-size: 22px;
+}
+.title-highlight{
+    color: palevioletred;
+}
+.half-width{
+    width: 40%;
+    margin: 3%;
+    padding: 2%;
+    float: left;
+}
+.details{
+    margin-top: 100px;
+}
+.half-width img{
+    width: 80%;
+}
+.link-button{
+    background-color: palevioletred;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.bio-area{
+    background-image: url(biography-bg.png);
+    background-size: cover;
+}
+.latestwork-area{
+    background-image: url(latest-work-bg.png);
+    background-size: cover;
+    margin-left:7%;
+}
+.latestwork-heading{
+    text-align: center;
+    margin-top: 50px;
+}
+.project-area{
+    padding: 5%;
+    margin-top: 50px;
+}
+.working-project{
+    width: 30%;
+    border-radius: 5px;
+    margin-left: 2%;
+    float: left;
+
+}
+.working-project img{
+    width: 100%;
+}
+.client-area{
+    background-image: url(footer-bg.png);
+    background-size: cover;
+}
+.client-heading{
+    text-align: center;
+}
+.client-bio{
+    margin-top: 100px;
+    text-align: center;
+    line-height: 1.5px;
+}
+.client-bio p{
+    font-size: 13px;
+}
+.client-comment{
+    text-align: center;
+    margin-top: 40px;
+    color: black;
+    font-weight: 500;
+    line-height: 2px;
+    font-weight: 500;
+}
+.leave-message{
+   width: 50%;
+   text-align: center;
+   margin: 70px auto;
+   padding: 10px;
+   color: white;
+   background-color:#E63E6D;
+   border-radius: 10px;  
+}
+footer{
+    text-align: center;
+}
